@@ -6,7 +6,7 @@ import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from chestxray14 import ChestXray14Dataset
+from Xplainer.scripts.CTClipInference import CTClipInference
 from chexpert import CheXpertDataset
 from descriptors import disease_descriptors_chexpert, disease_descriptors_chestxray14
 from model import InferenceModel
@@ -19,7 +19,7 @@ def inference_chexpert():
     split = 'test'
     dataset = CheXpertDataset(f'data/chexpert/{split}_labels.csv')  # also do test
     dataloader = DataLoader(dataset, batch_size=1, shuffle=False, collate_fn=lambda x: x, num_workers=0)
-    inference_model = InferenceModel()
+    inference_model = CTClipInference()
     all_descriptors = inference_model.get_all_descriptors(disease_descriptors_chexpert)
 
     all_labels = []

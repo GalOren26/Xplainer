@@ -1,3 +1,68 @@
+CTRate_disease_descriptors={
+   "Cardiomegaly": [
+        "Increased size of the heart shadow",
+        "Enlargement of the heart silhouette",
+        "Increased diameter of the heart border",
+        "Increased cardiothoracic ratio"
+    ],
+    "Lung opacity": [
+        "Increased density in the lung field",
+        "Whitish or grayish area in the lung field",
+        "Obscured or blurred margins of the lung field",
+        "Loss of normal lung markings within the opacity",
+        "Air bronchograms within the opacity",
+        "Fluid levels within the opacity",
+        "Silhouette sign loss with adjacent structures"
+    ],
+     "Hiatal hernia": [
+        "Bulge or swelling in the abdominal wall",
+        "Protrusion of intestine or other abdominal tissue",
+        "Swelling or enlargement of the herniated sac or surrounding tissues",
+        "Retro-cardiac air-fluid level",
+        "Thickening of intestinal folds"
+      ],
+     "Emphysema": [
+        "Flattened hemidiaphragm",
+        "Pulmonary bullae",
+        "Hyperlucent lungs",
+        "Horizontalisation of ribs",
+        "Barrel Chest"
+      ],
+     "Atelectasis": [
+        "Increased opacity",
+        "Volume loss of the affected lung region",
+        "Blunting of the costophrenic angle",
+        "Shifting of the mediastinum"
+      ], 
+      "Lung nodule": [
+        "Nodular shape that protrudes into a cavity or airway",
+        "Distinct edges or borders",
+        "Calcifications or speckled areas",
+        "Small round oral shaped spots",
+        "White shadows"
+      ],    
+      "Pleural effusion": [
+        "Blunting of costophrenic angles",
+        "Opacity in the lower lung fields",
+        "Mediastinal shift",
+        "Reduced lung volume",
+        "Presence of meniscus sign or veil-like appearance" 
+      ],
+    "Consolidation": [
+        "Loss of lung volume",
+        "Increased density of lung tissue",
+        "Obliteration of the diaphragmatic silhouette",
+        "Presence of opacities"
+    ],
+    "Medical material":[
+        "Artificial joints or implants",
+        "Pacemakers or cardiac devices",
+        "Stents or other vascular devices",
+        "Prosthetic devices or limbs",
+        "Breast implants",
+        "Radiotherapy markers or seeds"
+      ]
+}
 disease_descriptors_chexpert = {
     "No Finding": [
         "Clear lung fields",
@@ -27,7 +92,6 @@ disease_descriptors_chexpert = {
         "Air bronchograms within the opacity",
         "Fluid levels within the opacity",
         "Silhouette sign loss with adjacent structures",
-
     ],
     "Lung Lesion": [
         "Consolidation of lung tissue",
